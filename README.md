@@ -1,11 +1,12 @@
 # Interview
 follow up question
 
-here is my solution and test cases and the output
+here is my solution and test cases and the output.
+Please check the row style, i didnot adjust the format
 
-#meetings=[[0,30],[15,20],[5,10]]  output:2     /n
-#meetings=[[0,10],[10,20],[20,30]] output:2     /n
-#meetings=[[0,30],[0,30],[0,30]]  output:3      /n
+#meetings=[[0,30],[15,20],[5,10]]  output:2     
+#meetings=[[0,10],[10,20],[20,30]] output:2     
+#meetings=[[0,30],[0,30],[0,30]]  output:3      
 
 def countpeople(meetings):
     meetings.sort()
